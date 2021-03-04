@@ -1,11 +1,12 @@
 .item{
-    height: 100vh;
-    width: 100vw;
+    height: 99vh;
+    width: 99vw;
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover;
     display: flex;
     justify-content: center;
+    scroll-snap-align: start;
 }
 .item_container{
     width: 40vw;
